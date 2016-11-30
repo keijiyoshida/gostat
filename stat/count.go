@@ -25,7 +25,7 @@ func Count(data []float64) int {
 	return cnt
 }
 
-// count returns the number of non-nan elements of the data.
+// count calculates the number of non-nan elements of the data.
 func count(data []float64, from int, to int, ch chan<- int) {
 	cnt := 0
 
